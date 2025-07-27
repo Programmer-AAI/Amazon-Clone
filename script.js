@@ -1,7 +1,7 @@
 const imgs = document.querySelectorAll('.header-slider ul img ');
 const prev_btn = document.querySelector('.control-prev');
 const next_btn = document.querySelector('.control-next');
-alert('It\'s not for mobile devices, please use a desktop browser to view the slider.');
+alert("It's not for mobile devices, please use a desktop browser to view the slider.");
 let n = 0;
 
 function changeSlide() {
